@@ -19,6 +19,7 @@ header{
 
 h1{
     margin-bottom: 16px;
+    
 }
 
 header a {
@@ -27,12 +28,31 @@ header a {
     text-decoration: none;
 }
 
+.menubar{
+    position: relative ;
+}
+.logo{
+    
+    float: left;
+}
+header img{
+    width: 150px;
+    height: 50px;
+}
+
+.menu{
+    float:right;
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
 .main-content{
     flex-grow: 1;
 }
 
 .portrait {
-    width: 250px;
+    width: 450px;
+    height: 250px;
 }
 
 input {

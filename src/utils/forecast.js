@@ -16,12 +16,14 @@ const forecast =((latitude, longitude, callback) => {
         }else {
             callback(undefined, {
                 Process: 'forecast',
-                latitude: response.body.location.lat,
+                latitude: response.body.location.lat ,
                 longitude: response.body.location.lon,
                 location: response.body.location.name,
                 weather: response.body.current.weather_descriptions[0],
                 degreeout:  response.body.current.temperature,
-                feelslike: response.body.current.feelslike
+                feelslike: response.body.current.feelslike,
+                windspeed: response.body.current.wind_speed,
+                cloudcover: response.body.current.cloudcover
             })
         }
     } )

@@ -27,7 +27,7 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'From the Dynamic Page for About',
+        title: 'Weather App',
         name: 'Creathed by HB'
     })
 })
@@ -35,7 +35,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req,res) => {
     res.render('help', {
         helpText: 'This Page is for your Help',
-        title: 'From the Dynamic Page for Help',
+        title: 'Weather App',
         name: 'Created by HB'
     })
 })

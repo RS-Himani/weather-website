@@ -37,10 +37,10 @@ weatherForm.addEventListener('submit', (e) => {
                 console.log(data)
                 //console.log(JSON.stringify(Object.keys(data)));
                 //console.log(data.Data.Process)
-                messageOne.textContent = data.Data.location;
-                messagetwo.textContent = data.Data.weather;
-                messagethree.textContent = data.Data.degreeout;
-                messagefour.textContent = data.Data.feelslike;
+                messageOne.textContent = 'Location is '  + data.Data.location;
+                messagetwo.textContent = 'Weather Looks Like '  + data.Data.weather +' and Wind Speed is  ' + data.Data.windspeed + ' kilometers/hour ';
+                messagethree.textContent = 'Temperature is  '  + data.Data.degreeout + ' degree fahrenheit ';
+                messagefour.textContent = 'Feels Like '  + data.Data.feelslike + ' degree fahrenheit where the Cloud coverage is ' + data.Data.cloudcover +' %';
             }
         })
     
