@@ -1,5 +1,3 @@
-// heroku authorization token :-  18601b9b-8cec-4210-ba12-7d65aa2096b8
-
 
 console.log('Client side javascript file loaded!')
 
