@@ -15,6 +15,7 @@ body{
 header{
     margin-top: 16px;
     margin-bottom: 45px;
+    
 }
 
 h1{
@@ -66,6 +67,22 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
+}
+
+.helpContent {
+    display: inline-block;
+    overflow: auto;
+}
+.questions {
+    width: 69%;
+    float: left;
+    padding: 3px;
+}
+
+.contactUs {
+    width: 29%;
+    float: right;
+   padding: 3px;
 }
 
 footer{
